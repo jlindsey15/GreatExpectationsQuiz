@@ -5,7 +5,11 @@ try:
 except ImportError:
     from tkinter import *
 
+<<<<<<< HEAD
 import pygame
+=======
+#import pygame
+>>>>>>> ca8ea2424b7248271f250b12e448c4a9a709cc2c
 
 
 
@@ -117,8 +121,13 @@ on what you think is right, not based on greed.  Still, behind all that selfless
                 'Pumblechook': 'youresovainhi.ogg', \
                 'Wemmick': 'psychohi.ogg'}
     
+<<<<<<< HEAD
     pygame.mixer.music.load(songdic[yourguy])
     pygame.mixer.music.play()
+=======
+    #pygame.mixer.music.load(songdic[yourguy])
+    #pygame.mixer.music.play()
+>>>>>>> ca8ea2424b7248271f250b12e448c4a9a709cc2c
     
     
     
@@ -171,9 +180,15 @@ def start():
     Begin.pack()
     please_select = Label(root, text = "")
     please_select.pack()
+<<<<<<< HEAD
     pygame.mixer.init()
     pygame.mixer.music.load('whooshhi10.ogg')
     pygame.mixer.music.play()
+=======
+    #pygame.mixer.init()
+    #pygame.mixer.music.load('whooshhi10.ogg')
+    #pygame.mixer.music.play()
+>>>>>>> ca8ea2424b7248271f250b12e448c4a9a709cc2c
 
     
 
@@ -198,9 +213,15 @@ def next():
         if n == 15:
             compare()
         elif n < 15:
+<<<<<<< HEAD
             pygame.mixer.init()
             pygame.mixer.music.load('whooshhi10.ogg')
             pygame.mixer.music.play()
+=======
+            #pygame.mixer.init()
+            #pygame.mixer.music.load('whooshhi10.ogg')
+            #pygame.mixer.music.play()
+>>>>>>> ca8ea2424b7248271f250b12e448c4a9a709cc2c
             n +=1
             m+=3
             question.config(text = questions[n])
@@ -209,9 +230,15 @@ def next():
             answer3.config(text = answers[m+2])
             selected = False
             if n == 1:
+<<<<<<< HEAD
                 pygame.mixer.init()
                 pygame.mixer.music.load('whooshhi10.ogg')
                 pygame.mixer.music.play()
+=======
+                #pygame.mixer.init()
+                #pygame.mixer.music.load('whooshhi10.ogg')
+                #pygame.mixer.music.play()
+>>>>>>> ca8ea2424b7248271f250b12e448c4a9a709cc2c
                 
                 last = Button(root, text = "Go back", command = previous)
                 last.pack()
